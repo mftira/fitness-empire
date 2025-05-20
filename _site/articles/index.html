@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Articles | Fitness Empire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fitness Empire is your ultimate resource for health and fitness guidance, featuring expert insights on workouts, nutrition, wellness, motivation, and lifestyle tips for people of all fitness levels.">
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Articles | Fitness Empire</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Articles" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Fitness Empire is your ultimate resource for health and fitness guidance, featuring expert insights on workouts, nutrition, wellness, motivation, and lifestyle tips for people of all fitness levels." />
+<meta property="og:description" content="Fitness Empire is your ultimate resource for health and fitness guidance, featuring expert insights on workouts, nutrition, wellness, motivation, and lifestyle tips for people of all fitness levels." />
+<link rel="canonical" href="http://localhost:4000/articles/" />
+<meta property="og:url" content="http://localhost:4000/articles/" />
+<meta property="og:site_name" content="Fitness Empire" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Articles" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Fitness Empire is your ultimate resource for health and fitness guidance, featuring expert insights on workouts, nutrition, wellness, motivation, and lifestyle tips for people of all fitness levels.","headline":"Articles","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"url":"http://localhost:4000/articles/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/dark-theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
+
+  </head>
+  <body>
+    <header>
+  <div class="header-container">
+    <div class="header-left">
+      <a href="/" class="logo-link">
+        <img src="/assets/images/logo.png" alt="Fitness Empire Logo" class="logo" style="height:60px;">
+      </a>
+    </div>
+    
+    <nav class="main-nav">
+      <a href="/" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+        <span>Home</span>
+      </a>
+      <a href="/articles/" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        </svg>
+        <span>Articles</span>
+      </a>
+      <a href="/about/" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <span>About</span>
+      </a>
+    </nav>
+
+    <div class="header-right">
+      <form id="search-form" class="search-form" onsubmit="handleHeaderSearch(event)">
+        <input type="text" id="search-input" placeholder="Search fitness content..." />
+        <button type="submit" class="search-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</header>
+<script>
+  function handleHeaderSearch(e) {
+    e.preventDefault();
+    const searchTerm = document.getElementById('search-input').value;
+    // Use Jekyll's baseurl for correct path
+    window.location.href = '/articles/?q=' + encodeURIComponent(searchTerm);
+  }
+</script>
+    <main><div class="articles-container">
+  <div class="articles-header">
+    <h1 class="gradient-text">All Fitness Articles</h1>
+    
+    <!-- Updated search form container -->
+    <div class="articles-search-container">
+      <form id="articles-search-form" class="search-form">
+        <input type="text" id="articles-search-input" placeholder="Search fitness tips..." />
+        <button type="submit" class="search-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="articles-filters">
+    <div class="tags-filter">
+      
+      
+        <button class="tag filter-tag" data-tag=""></button>
+      
+    </div>
+  </div>
+
+  <div id="articles-grid" class="articles-grid">
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-20T00:00:00+01:00">
+              May 20, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/20/fitness-tracking-tips.html">Fitness Tracking Tips</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-19T00:00:00+01:00">
+              May 19, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/19/supplements-guide.html">Supplements Guide</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-18T00:00:00+01:00">
+              May 18, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/18/beginner-yoga.html">Beginner Yoga</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-17T00:00:00+01:00">
+              May 17, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/17/fitness-myths.html">Fitness Myths</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-16T00:00:00+01:00">
+              May 16, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/16/meal-prep-guide.html">Meal Prep Guide</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-15T00:00:00+01:00">
+              May 15, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/15/fitness-youtube-channels.html">Fitness Youtube Channels</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-14T00:00:00+01:00">
+              May 14, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/14/muscle-recovery-science.html">Muscle Recovery Science</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-13T00:00:00+01:00">
+              May 13, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/13/fitness-trackers-2025.html">Fitness Trackers 2025</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-12T00:00:00+01:00">
+              May 12, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/12/dumbbell-exercises.html">Dumbbell Exercises</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-11T00:00:00+01:00">
+              May 11, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/11/post-workout-smoothie.html">Post Workout Smoothie</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-10T00:00:00+01:00">
+              May 10, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/10/cardio-vs-weightlifting.html">Cardio Vs Weightlifting</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-09T00:00:00+01:00">
+              May 9, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/09/sleep-and-fitness.html">Sleep And Fitness</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-08T00:00:00+01:00">
+              May 8, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/08/best-daily-stretches.html">Best Daily Stretches</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-07T00:00:00+01:00">
+              May 7, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/07/protein-foods-muscle.html">Protein Foods Muscle</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="">
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-06T00:00:00+01:00">
+              May 6, 2025
+            </time>
+            
+              
+            
+          </div>
+          <h2><a href="/2025/05/06/workout-motivation.html">Workout Motivation</a></h2>
+          <p>
+</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="strength training,beginners,compound lifts,progressive overload">
+        
+          <div class="post-image">
+            <img src="/assets/images/training.jpg" alt="Strength Training Basics: Building Your Foundation">
+          </div>
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-05T14:30:00+01:00">
+              May 5, 2025
+            </time>
+            
+              
+                <span class="tag">strength training</span>
+              
+                <span class="tag">beginners</span>
+              
+                <span class="tag">compound lifts</span>
+              
+                <span class="tag">progressive overload</span>
+              
+            
+          </div>
+          <h2><a href="/2025/05/05/strength-training-basics.html">Strength Training Basics: Building Your Foundation</a></h2>
+          <p>Master the fundamentals of effective strength training with this comprehensive guide for beginners and experienced fitness enthusiasts alike.</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="intermittent fasting,meal timing,fat loss,metabolism,nutrition strategy">
+        
+          <div class="post-image">
+            <img src="/assets/images/fasting.jpg" alt="The Complete Guide to Intermittent Fasting: Methods, Benefits, and Implementation">
+          </div>
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-04T19:45:00+01:00">
+              May 4, 2025
+            </time>
+            
+              
+                <span class="tag">intermittent fasting</span>
+              
+                <span class="tag">meal timing</span>
+              
+                <span class="tag">fat loss</span>
+              
+                <span class="tag">metabolism</span>
+              
+                <span class="tag">nutrition strategy</span>
+              
+            
+          </div>
+          <h2><a href="/2025/05/04/intermittent-fasting-guide.html">The Complete Guide to Intermittent Fasting: Methods, Benefits, and Implementation</a></h2>
+          <p>Explore the science behind intermittent fasting, discover which method is right for your lifestyle, and learn how to implement this powerful nutritional stra...</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="home gym,budget fitness,equipment,space optimization">
+        
+          <div class="post-image">
+            <img src="/assets/images/home-gym-budget.jpg" alt="Building a Home Gym on Any Budget: From $100 to $10,000">
+          </div>
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-03T18:30:00+01:00">
+              May 3, 2025
+            </time>
+            
+              
+                <span class="tag">home gym</span>
+              
+                <span class="tag">budget fitness</span>
+              
+                <span class="tag">equipment</span>
+              
+                <span class="tag">space optimization</span>
+              
+            
+          </div>
+          <h2><a href="/2025/05/03/home-gym-budget.html">Building a Home Gym on Any Budget: From $100 to $10,000</a></h2>
+          <p>Create an effective home workout space regardless of your budget with our comprehensive guide to essential equipment, space optimization, and strategic purch...</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="fitness apps,workout tracking,nutrition apps,tech tools">
+        
+          <div class="post-image">
+            <img src="/assets/images/fitness-apps.png" alt="The 10 Best Fitness Apps of 2025: Technology That Transforms Your Workouts">
+          </div>
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-02T15:45:00+01:00">
+              May 2, 2025
+            </time>
+            
+              
+                <span class="tag">fitness apps</span>
+              
+                <span class="tag">workout tracking</span>
+              
+                <span class="tag">nutrition apps</span>
+              
+                <span class="tag">tech tools</span>
+              
+            
+          </div>
+          <h2><a href="/2025/05/02/best-fitness-apps.html">The 10 Best Fitness Apps of 2025: Technology That Transforms Your Workouts</a></h2>
+          <p>Our comprehensive review of the most effective fitness apps of 2025 - from AI workout coaches to nutrition trackers with cutting-edge features that deliver r...</p>
+        </div>
+      </article>
+    
+      <article class="post-card" data-tags="morning routines,productivity,workout timing,consistency">
+        
+          <div class="post-image">
+            <img src="/assets/images/morning-workout.jpg" alt="Morning Workouts: Maximize Your Day with Dawn Fitness Routines">
+          </div>
+        
+        <div class="post-content">
+          <div class="post-meta">
+            <time datetime="2025-05-01T12:15:00+01:00">
+              May 1, 2025
+            </time>
+            
+              
+                <span class="tag">morning routines</span>
+              
+                <span class="tag">productivity</span>
+              
+                <span class="tag">workout timing</span>
+              
+                <span class="tag">consistency</span>
+              
+            
+          </div>
+          <h2><a href="/2025/05/01/morning-workouts.html">Morning Workouts: Maximize Your Day with Dawn Fitness Routines</a></h2>
+          <p>Discover the science-backed benefits of morning workouts and learn how to build a sustainable dawn fitness routine that boosts your energy, metabolism, and p...</p>
+        </div>
+      </article>
+    
+  </div>
+
+  <div id="no-results" class="no-results" style="display: none;">
+    <p>No strategies found matching your search.</p>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('articles-search-input');
+  const articlesGrid = document.getElementById('articles-grid');
+  const noResults = document.getElementById('no-results');
+  const articles = document.querySelectorAll('.post-card');
+  const filterTags = document.querySelectorAll('.filter-tag');
+  let activeTag = null;
+
+  function filterArticles() {
+    const searchTerm = searchInput.value.toLowerCase();
+    let hasVisibleArticles = false;
+
+    articles.forEach(article => {
+      const title = article.querySelector('h2').textContent.toLowerCase();
+      const content = article.querySelector('p').textContent.toLowerCase();
+      const tags = article.dataset.tags.toLowerCase();
+      
+      const matchesSearch = title.includes(searchTerm) || content.includes(searchTerm);
+      const matchesTag = !activeTag || tags.includes(activeTag.toLowerCase());
+      
+      if (matchesSearch && matchesTag) {
+        article.style.display = 'block';
+        hasVisibleArticles = true;
+      } else {
+        article.style.display = 'none';
+      }
+    });
+
+    noResults.style.display = hasVisibleArticles ? 'none' : 'block';
+  }
+
+  searchInput.addEventListener('input', filterArticles);
+
+  filterTags.forEach(tag => {
+    tag.addEventListener('click', () => {
+      if (activeTag === tag.dataset.tag) {
+        // Deactivate tag
+        tag.classList.remove('active');
+        activeTag = null;
+      } else {
+        // Activate tag
+        filterTags.forEach(t => t.classList.remove('active'));
+        tag.classList.add('active');
+        activeTag = tag.dataset.tag;
+      }
+      filterArticles();
+    });
+  });
+
+  // Connect header search to articles page
+  const headerSearchForm = document.getElementById('search-form');
+  headerSearchForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    window.location.href = '/articles/?q=' + encodeURIComponent(document.getElementById('search-input').value);
+  });
+
+  // Check for search parameter in URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const queryParam = urlParams.get('q');
+  if (queryParam) {
+    searchInput.value = queryParam;
+    filterArticles();
+  }
+});
+</script></main>
+    <footer style="text-align:center;padding:2em 0;">
+  <p>&copy; 2025 Fitness Empire. All rights reserved.</p>
+</footer>
+
+  </body>
+</html>
